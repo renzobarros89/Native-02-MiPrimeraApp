@@ -1,12 +1,7 @@
-import React from 'react';
-import {Text, View} from 'react-native';
+import {ContadorScreen} from './src/screens/ContadorScreen';
 
 const App = () => {
-  return (
-    <View>
-      <Text>App</Text>
-    </View>
-  );
+  return <ContadorScreen />;
 };
 
 export default App;
