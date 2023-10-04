@@ -3,7 +3,7 @@ import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 
 interface Props {
   title: string;
-  position: 'br' | 'bl';
+  position?: 'br' | 'bl';
   onPress: () => void;
 }
 
